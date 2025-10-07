@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "8388dc9a-a88c-4e2f-9d07-3b59cef55e1b")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "Thermocouple Board")
 		(date "2025-10-07")
