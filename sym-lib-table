@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MAX31856TriState")(type "KiCad")(uri "${KIPRJMOD}/MAX31856TriState.kicad_sym")(options "")(descr ""))
+)

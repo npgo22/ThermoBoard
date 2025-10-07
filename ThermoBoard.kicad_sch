@@ -1,0 +1,240 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "516571a2-a7c0-4337-8157-ef9156d6d6ba")
+	(paper "A4")
+	(title_block
+		(title "Thermocouple Board")
+		(date "2025-10-07")
+		(rev "1A")
+		(company "Aggie Propulsion and Rocketry Lab")
+		(comment 1 "Drawn by: Nolan Poe")
+		(comment 2 "Checked by: Daniel Fan")
+	)
+	(lib_symbols)
+	(text "APRL Thermocouple Board"
+		(exclude_from_sim no)
+		(at 149.86 22.86 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "306a2455-07af-4051-90f2-9034ba283cd6")
+	)
+	(text "Thermocouples"
+		(exclude_from_sim no)
+		(at 171.45 118.11 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "6d7d8046-bc5f-4a80-a6fd-b093c0214a86")
+	)
+	(text "Ethernet"
+		(exclude_from_sim no)
+		(at 99.06 118.11 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "7dcaa279-8069-45c8-994d-2d21b64fff82")
+	)
+	(text "Microcontroller"
+		(exclude_from_sim no)
+		(at 44.45 118.11 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "bfbf1d9a-a278-4455-aab3-f768be809126")
+	)
+	(text "CAN"
+		(exclude_from_sim no)
+		(at 220.98 118.11 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "d4c9049f-c198-4748-8df6-292ddc7603de")
+	)
+	(sheet
+		(at 88.9 121.92)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c924280-a450-4ed0-a8e7-a6d253766973")
+		(property "Sheetname" "Ethernet"
+			(at 88.9 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ethernet.kicad_sch"
+			(at 88.9 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 121.92)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb5b9054-6039-4dd7-9091-bbb4cc5c9a64")
+		(property "Sheetname" "CAN"
+			(at 215.9 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 215.9 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 121.92)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0edba51-f399-42ee-9bc0-cc87d23748a9")
+		(property "Sheetname" "Thermocouples"
+			(at 152.4 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermocouples.kicad_sch"
+			(at 152.4 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 121.92)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9e8a336-15fa-4eb2-849e-3ba06ceb583e")
+		(property "Sheetname" "Microcontroller"
+			(at 25.4 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 25.4 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
