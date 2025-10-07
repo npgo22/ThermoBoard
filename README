@@ -1,0 +1,8 @@
+STATUS:
+Project passes DRC. Component selctions are incomplete, but the initial schematic is ready for review.
+
+TODO:
+- Finalize component selections
+- Layout and Routing + final pinout during routing
+- Map parts to LCSC order
+- KiBot actions for automated printing(?) and DRC checking
