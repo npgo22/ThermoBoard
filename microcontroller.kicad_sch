@@ -6709,6 +6709,12 @@
 		(uuid "08bb6ee2-4b93-441c-9f3e-28b197eaf7c2")
 	)
 	(junction
+		(at 240.03 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a181ff3-f4df-42c1-8fe6-d1938c888048")
+	)
+	(junction
 		(at 199.39 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8298,6 +8304,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f26374c-0e5f-47d2-849b-5615b027fe9d")
+	)
+	(wire
+		(pts
 			(xy 91.44 95.25) (xy 93.98 95.25)
 		)
 		(stroke
@@ -9078,7 +9094,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 106.68) (xy 243.84 106.68)
+			(xy 236.22 106.68) (xy 240.03 106.68)
 		)
 		(stroke
 			(width 0)
@@ -13233,7 +13249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 204.47 109.22 0)
 			(effects
 				(font
@@ -15544,6 +15560,72 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 240.03 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dcf95848-b3c5-44dc-b8d7-e499fdced7ee")
+		(property "Reference" "TP111"
+			(at 242.316 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 242.062 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 245.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 240.03 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b5884f-8e47-4e71-8767-48ff40715d5d")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e"
+					(reference "TP111")
 					(unit 1)
 				)
 			)

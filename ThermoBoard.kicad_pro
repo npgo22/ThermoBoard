@@ -330,7 +330,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|482600|901700|57b6eb6c-a78f-4d72-af1b-bc9c119236d2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|2070100|330200|c5e4a9f0-c6c1-40fb-9086-bf4b584cdecd|7699f282-8032-4462-9dc6-ed8f296c9d53|/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e|/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e|/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
