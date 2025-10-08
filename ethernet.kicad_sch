@@ -6496,7 +6496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
+		(property "Footprint" "Library:RJ45_Hanrun_HR911105A_Horizontal"
 			(at 214.63 124.46 0)
 			(effects
 				(font
@@ -7834,7 +7834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+		(property "Footprint" "Library:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 123.19 118.11 0)
 			(effects
 				(font

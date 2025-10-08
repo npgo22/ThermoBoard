@@ -1,6 +1,26 @@
 {
   "board": {
-    "3dviewports": [],
+    "3dviewports": [
+      {
+        "name": "main",
+        "ww": 1.0,
+        "wx": -17.44816017150879,
+        "wy": 23.572589874267578,
+        "wz": -30.061296463012695,
+        "xw": 0.0,
+        "xx": 0.9341440200805664,
+        "xy": -0.31669408082962036,
+        "xz": 0.16457295417785645,
+        "yw": 0.0,
+        "yx": 0.3563718795776367,
+        "yy": 0.8527951240539551,
+        "yz": -0.38175562024116516,
+        "zw": 0.0,
+        "zx": -0.019447073340415955,
+        "zy": 0.4152626395225525,
+        "zz": 0.9094911813735962
+      }
+    ],
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_fields": false,
@@ -48,7 +68,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -73,7 +93,48 @@
           "width": 0.315468
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|167710000|98070000|ad403c61-29b4-46ad-b428-b238830a9898|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|101900000|78600000|5a69c29c-31b5-4350-9a66-c02e54080d17|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|105400000|93600000|21bd58cc-87a8-4b40-b21c-6295526ea725|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|105500000|96200000|62cc146d-86d0-425c-a4e2-f85ca34f59d6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|105600000|103800000|4716bafa-f1f7-4f63-9102-e63cbeb98750|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|107100000|88400000|97f06438-4089-4d1f-9900-d9eae16bec8e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|107200000|86000000|9f6f2564-fed7-46a8-abdc-ee56e4384e23|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|119700000|65000000|05dccc79-6177-4e30-9fdf-5595dd9929d9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|146600000|88300000|d3ba9f67-0174-4ebd-b52e-518d8550e3e8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_thickness|171375000|101650000|fbbe256c-ee36-4db0-aa62-44eb3fcb011d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -116,8 +177,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -203,6 +264,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3,
         0.5
       ],
@@ -238,8 +300,16 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
           "diameter": 0.7,
           "drill": 0.5
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -261,6 +331,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|482600|901700|57b6eb6c-a78f-4d72-af1b-bc9c119236d2|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
       [
         "multiple_net_names|2070100|330200|c5e4a9f0-c6c1-40fb-9086-bf4b584cdecd|7699f282-8032-4462-9dc6-ed8f296c9d53|/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e|/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e|/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e",
         ""
@@ -519,11 +593,39 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Ethernet",
+        "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Ethernet",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.247904,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.315468,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -541,6 +643,18 @@
       {
         "netclass": "Ethernet",
         "pattern": "/Ethernet/RX*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Microcontroller/USB_D*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Microcontroller/USB_CONN_D*"
+      },
+      {
+        "netclass": "CAN",
+        "pattern": "/CAN/*"
       }
     ]
   },
@@ -559,7 +673,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 199,
+    "annotate_start_num": 99,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
