@@ -1127,131 +1127,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3VA"
 			(power)
 			(pin_numbers
@@ -4538,7 +4413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04fe8d64-13da-42ad-881d-26dc2a725107")
-		(property "Reference" "R314"
+		(property "Reference" "R309"
 			(at 174.498 87.63 90)
 			(effects
 				(font
@@ -4590,7 +4465,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R314")
+					(reference "R309")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0650cef7-8417-4717-8e8b-ca5295937093")
-		(property "Reference" "R319"
+		(property "Reference" "R311"
 			(at 246.38 106.6799 0)
 			(effects
 				(font
@@ -4660,7 +4535,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R319")
+					(reference "R311")
 					(unit 1)
 				)
 			)
@@ -4676,7 +4551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ffd55b7-425e-48ee-8f62-c245e83d68f0")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0308"
 			(at 62.23 57.15 0)
 			(effects
 				(font
@@ -4727,7 +4602,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0302")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -4743,7 +4618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13497ce2-b72c-4e16-995c-c86b308a73bc")
-		(property "Reference" "U302"
+		(property "Reference" "U301"
 			(at 211.8995 46.99 0)
 			(effects
 				(font
@@ -4834,7 +4709,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "U302")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -4850,7 +4725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17bf119d-959d-42fb-a61c-80a199de11c0")
-		(property "Reference" "C307"
+		(property "Reference" "C310"
 			(at 72.39 111.7599 0)
 			(effects
 				(font
@@ -4904,7 +4779,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C307")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -4920,7 +4795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a8611f2-87c7-486c-925e-ae35d224188d")
-		(property "Reference" "#PWR0329"
+		(property "Reference" "#PWR0338"
 			(at 204.47 157.48 0)
 			(effects
 				(font
@@ -4971,7 +4846,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0329")
+					(reference "#PWR0338")
 					(unit 1)
 				)
 			)
@@ -4987,7 +4862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff54dc5-9bd4-41e8-a6d0-5b1ef716689f")
-		(property "Reference" "#PWR0327"
+		(property "Reference" "#PWR0332"
 			(at 193.04 125.73 0)
 			(effects
 				(font
@@ -5038,7 +4913,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0327")
+					(reference "#PWR0332")
 					(unit 1)
 				)
 			)
@@ -5053,7 +4928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21acee00-69e5-4fbc-8577-85d27927b383")
-		(property "Reference" "R300"
+		(property "Reference" "R304"
 			(at 30.48 60.96 90)
 			(effects
 				(font
@@ -5105,7 +4980,7 @@
 		(instances
 			(project ""
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R300")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -5121,7 +4996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a0eca92-034b-4b55-a820-a4e7055eafa3")
-		(property "Reference" "#PWR0321"
+		(property "Reference" "#PWR0335"
 			(at 175.26 154.94 0)
 			(effects
 				(font
@@ -5172,7 +5047,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0321")
+					(reference "#PWR0335")
 					(unit 1)
 				)
 			)
@@ -5188,7 +5063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d6915fc-e98b-44d5-8e23-71f640b07d4e")
-		(property "Reference" "#PWR0310"
+		(property "Reference" "#PWR0317"
 			(at 85.09 88.9 0)
 			(effects
 				(font
@@ -5239,7 +5114,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0310")
+					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -5255,7 +5130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4f2036-9d7e-4f4b-b701-79a529cde3c8")
-		(property "Reference" "C316"
+		(property "Reference" "C302"
 			(at 196.85 43.1799 0)
 			(effects
 				(font
@@ -5309,7 +5184,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C316")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -5325,7 +5200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324651b5-f9f7-438a-8221-7b9973769ef2")
-		(property "Reference" "C308"
+		(property "Reference" "C301"
 			(at 101.6 43.1799 0)
 			(effects
 				(font
@@ -5379,7 +5254,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C308")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -5395,7 +5270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35e78bc2-94bd-4ef9-8c7d-8ccfff057fc2")
-		(property "Reference" "U301"
+		(property "Reference" "U302"
 			(at 87.4395 115.57 0)
 			(effects
 				(font
@@ -5486,7 +5361,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "U301")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -5501,7 +5376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36e8d702-182c-464b-ad80-cb292a39e995")
-		(property "Reference" "R311"
+		(property "Reference" "R307"
 			(at 154.94 63.5 90)
 			(effects
 				(font
@@ -5553,7 +5428,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R311")
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -5569,7 +5444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ab6ce13-b4b0-4d84-abc4-e5289290706b")
-		(property "Reference" "C303"
+		(property "Reference" "C314"
 			(at 54.61 120.6499 0)
 			(effects
 				(font
@@ -5623,7 +5498,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C303")
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -5639,7 +5514,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b000bd5-903d-4a71-9d32-7882a77ed3aa")
-		(property "Reference" "#PWR0314"
+		(property "Reference" "#PWR0323"
 			(at 97.79 107.95 0)
 			(effects
 				(font
@@ -5689,7 +5564,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0314")
+					(reference "#PWR0323")
 					(unit 1)
 				)
 			)
@@ -5704,7 +5579,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e09b699-521b-46eb-8dc6-e800331616ba")
-		(property "Reference" "R310"
+		(property "Reference" "R305"
 			(at 154.94 60.96 90)
 			(effects
 				(font
@@ -5756,7 +5631,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R310")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -5772,7 +5647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f47ffa6-7a05-450d-92c9-79287a29d214")
-		(property "Reference" "#PWR0331"
+		(property "Reference" "#PWR0339"
 			(at 209.55 157.48 0)
 			(effects
 				(font
@@ -5823,7 +5698,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0331")
+					(reference "#PWR0339")
 					(unit 1)
 				)
 			)
@@ -5838,7 +5713,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40786f9f-1ccf-4787-97ac-cd4e701764ae")
-		(property "Reference" "R302"
+		(property "Reference" "R314"
 			(at 30.48 129.54 90)
 			(effects
 				(font
@@ -5890,7 +5765,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R302")
+					(reference "R314")
 					(unit 1)
 				)
 			)
@@ -5906,7 +5781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a82a16-abe8-4547-9e93-5dd004b03747")
-		(property "Reference" "#PWR0324"
+		(property "Reference" "#PWR0304"
 			(at 193.04 39.37 0)
 			(effects
 				(font
@@ -5956,7 +5831,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0324")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -5972,7 +5847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45e4f6a7-2a0e-49c8-a1d2-2bd26a779736")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0329"
 			(at 68.58 125.73 0)
 			(effects
 				(font
@@ -6023,7 +5898,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0307")
+					(reference "#PWR0329")
 					(unit 1)
 				)
 			)
@@ -6039,7 +5914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e18f7f-633f-45ba-9972-95381ba3ccfc")
-		(property "Reference" "R308"
+		(property "Reference" "R300"
 			(at 121.92 38.0999 0)
 			(effects
 				(font
@@ -6093,7 +5968,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R308")
+					(reference "R300")
 					(unit 1)
 				)
 			)
@@ -6109,7 +5984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a524eef-3e26-4a5a-aa29-e470b84695d4")
-		(property "Reference" "C304"
+		(property "Reference" "C316"
 			(at 54.61 130.8099 0)
 			(effects
 				(font
@@ -6163,7 +6038,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C304")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -6178,7 +6053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cefc2f0-858c-4125-b3f3-4823d848e285")
-		(property "Reference" "J302"
+		(property "Reference" "J301"
 			(at 146.05 55.626 0)
 			(effects
 				(font
@@ -6230,7 +6105,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "J302")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4dbd2128-398d-45c2-b4f1-d72364a66cc4")
-		(property "Reference" "J301"
+		(property "Reference" "J302"
 			(at 21.59 124.206 0)
 			(effects
 				(font
@@ -6404,7 +6279,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "J301")
+					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -6420,7 +6295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "512244f3-2eba-42cc-9dd4-644796b903b2")
-		(property "Reference" "#PWR0322"
+		(property "Reference" "#PWR0311"
 			(at 186.69 57.15 0)
 			(effects
 				(font
@@ -6471,7 +6346,73 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0322")
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 109.22 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "515f623f-2c4c-425c-8eef-b887161d4d64")
+		(property "Reference" "#PWR0221"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 109.22 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8a16d6d-e571-4123-be3f-c6462cd88321")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55bcc69a-9a69-4e54-8840-ceca2ce3533a")
-		(property "Reference" "#PWR0325"
+		(property "Reference" "#PWR0312"
 			(at 193.04 57.15 0)
 			(effects
 				(font
@@ -6538,7 +6479,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0325")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -6553,7 +6494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "572bcaa2-6294-49d1-ac5d-784c054ce91e")
-		(property "Reference" "R303"
+		(property "Reference" "R316"
 			(at 30.48 132.08 90)
 			(effects
 				(font
@@ -6605,7 +6546,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R303")
+					(reference "R316")
 					(unit 1)
 				)
 			)
@@ -6621,7 +6562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58966b66-e8cc-48f3-9510-193839a5d194")
-		(property "Reference" "#PWR0315"
+		(property "Reference" "#PWR0330"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -6672,7 +6613,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0315")
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -6687,7 +6628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63103fe3-d1a8-4109-a9c9-c95a062556a1")
-		(property "Reference" "R313"
+		(property "Reference" "R317"
 			(at 154.94 132.08 90)
 			(effects
 				(font
@@ -6739,7 +6680,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R313")
+					(reference "R317")
 					(unit 1)
 				)
 			)
@@ -6755,7 +6696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "634a27e3-cb29-4566-9f36-92337e0bc2ca")
-		(property "Reference" "C300"
+		(property "Reference" "C304"
 			(at 54.61 52.0699 0)
 			(effects
 				(font
@@ -6809,7 +6750,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C300")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -6824,7 +6765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63798402-145c-4c70-8d69-8993b2f630f0")
-		(property "Reference" "#PWR0318"
+		(property "Reference" "#PWR0300"
 			(at 119.38 35.56 0)
 			(effects
 				(font
@@ -6874,7 +6815,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0318")
+					(reference "#PWR0300")
 					(unit 1)
 				)
 			)
@@ -6890,7 +6831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641bd779-6cf3-4efd-b3fa-79d08cd7132f")
-		(property "Reference" "#PWR0333"
+		(property "Reference" "#PWR0313"
 			(at 222.25 57.15 0)
 			(effects
 				(font
@@ -6941,73 +6882,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0333")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 233.68 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65c41f21-9634-4775-836f-4833aa6d7091")
-		(property "Reference" "#PWR0336"
-			(at 233.68 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 233.68 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0355554-a127-489d-9ef9-24b33ec0f66a")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0336")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -7023,7 +6898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67f8ba75-f62d-43f4-8f38-e7e11d411c94")
-		(property "Reference" "C309"
+		(property "Reference" "C311"
 			(at 101.6 111.7599 0)
 			(effects
 				(font
@@ -7077,7 +6952,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C309")
+					(reference "C311")
 					(unit 1)
 				)
 			)
@@ -7093,7 +6968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68979598-0c83-424b-8356-5378824a533b")
-		(property "Reference" "#PWR0326"
+		(property "Reference" "#PWR0324"
 			(at 193.04 107.95 0)
 			(effects
 				(font
@@ -7143,7 +7018,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0326")
+					(reference "#PWR0324")
 					(unit 1)
 				)
 			)
@@ -7159,7 +7034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb899bb-dc0d-4a1b-a50c-13307e72566b")
-		(property "Reference" "C314"
+		(property "Reference" "C317"
 			(at 179.07 130.8099 0)
 			(effects
 				(font
@@ -7213,7 +7088,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C314")
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -7229,7 +7104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd117de-bdfb-4318-a9a4-c41f9aa31828")
-		(property "Reference" "#PWR0334"
+		(property "Reference" "#PWR0325"
 			(at 222.25 107.95 0)
 			(effects
 				(font
@@ -7279,7 +7154,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0334")
+					(reference "#PWR0325")
 					(unit 1)
 				)
 			)
@@ -7295,7 +7170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e2aadbe-e115-430f-bac1-84271439bd9a")
-		(property "Reference" "#PWR0323"
+		(property "Reference" "#PWR0331"
 			(at 186.69 125.73 0)
 			(effects
 				(font
@@ -7346,7 +7221,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0323")
+					(reference "#PWR0331")
 					(unit 1)
 				)
 			)
@@ -7362,7 +7237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7372b9ff-cae3-4564-a094-31129c6036a0")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0305"
 			(at 222.25 39.37 0)
 			(effects
 				(font
@@ -7412,7 +7287,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0332")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74f799c2-6618-41b3-9316-c14ce991709d")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0322"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -7478,7 +7353,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0306")
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -7494,7 +7369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75eacfb9-0802-4e63-b84f-3cdb6ea7f72e")
-		(property "Reference" "#PWR0312"
+		(property "Reference" "#PWR0303"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -7544,7 +7419,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0312")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -7560,7 +7435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7951fcb8-c4bd-4ba0-a47e-b934dc0c986d")
-		(property "Reference" "C313"
+		(property "Reference" "C315"
 			(at 179.07 120.6499 0)
 			(effects
 				(font
@@ -7614,7 +7489,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C313")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ab56661-c5da-494e-94a4-8c013b7bdad0")
-		(property "Reference" "R309"
+		(property "Reference" "R310"
 			(at 121.92 106.6799 0)
 			(effects
 				(font
@@ -7684,7 +7559,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R309")
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -7699,7 +7574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c059442-bd01-44fb-b171-90a345578373")
-		(property "Reference" "#PWR0339"
+		(property "Reference" "#PWR0321"
 			(at 243.84 104.14 0)
 			(effects
 				(font
@@ -7749,7 +7624,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0339")
+					(reference "#PWR0321")
 					(unit 1)
 				)
 			)
@@ -7765,7 +7640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c1c5e7-07ff-4865-8a4b-55812d3db921")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR0334"
 			(at 50.8 154.94 0)
 			(effects
 				(font
@@ -7816,7 +7691,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0301")
+					(reference "#PWR0334")
 					(unit 1)
 				)
 			)
@@ -7832,7 +7707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8201e166-3e3e-4ee3-84ac-ad091cc96e2f")
-		(property "Reference" "C310"
+		(property "Reference" "C305"
 			(at 179.07 52.0699 0)
 			(effects
 				(font
@@ -7886,7 +7761,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C310")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -7902,7 +7777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82822d1d-5c9b-4b8a-84b7-c0f7ff5456bc")
-		(property "Reference" "#PWR0311"
+		(property "Reference" "#PWR0337"
 			(at 85.09 157.48 0)
 			(effects
 				(font
@@ -7953,7 +7828,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0311")
+					(reference "#PWR0337")
 					(unit 1)
 				)
 			)
@@ -7969,7 +7844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82e3f8b5-8246-4201-a196-f884508a2592")
-		(property "Reference" "C302"
+		(property "Reference" "C308"
 			(at 54.61 72.3899 0)
 			(effects
 				(font
@@ -8023,7 +7898,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C302")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -8106,7 +7981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e60da3-272f-42cf-9c94-6054c5a244e0")
-		(property "Reference" "C315"
+		(property "Reference" "C319"
 			(at 179.07 140.9699 0)
 			(effects
 				(font
@@ -8160,7 +8035,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C315")
+					(reference "C319")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f0ea6bd-1b45-423f-9790-c6daa5e94149")
-		(property "Reference" "#PWR0300"
+		(property "Reference" "#PWR0314"
 			(at 50.8 86.36 0)
 			(effects
 				(font
@@ -8227,7 +8102,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0300")
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -8243,7 +8118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94ce9b07-118b-4377-a3e8-d4f596513f45")
-		(property "Reference" "R316"
+		(property "Reference" "R303"
 			(at 236.22 48.2599 0)
 			(effects
 				(font
@@ -8297,7 +8172,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R316")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -8312,7 +8187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9642b5b1-fcad-40ee-aa5a-9776dbb81739")
-		(property "Reference" "R312"
+		(property "Reference" "R315"
 			(at 154.94 129.54 90)
 			(effects
 				(font
@@ -8364,7 +8239,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R312")
+					(reference "R315")
 					(unit 1)
 				)
 			)
@@ -8380,7 +8255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b497786-7dfe-4dcb-94c6-ea5fdb4abfc5")
-		(property "Reference" "#PWR0320"
+		(property "Reference" "#PWR0315"
 			(at 175.26 86.36 0)
 			(effects
 				(font
@@ -8431,7 +8306,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0320")
+					(reference "#PWR0315")
 					(unit 1)
 				)
 			)
@@ -8447,7 +8322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a29ee9d3-bdee-49cc-ac9e-314f3f6dc136")
-		(property "Reference" "#PWR0335"
+		(property "Reference" "#PWR0333"
 			(at 222.25 125.73 0)
 			(effects
 				(font
@@ -8498,7 +8373,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0335")
+					(reference "#PWR0333")
 					(unit 1)
 				)
 			)
@@ -8513,7 +8388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4eb7bac-a1a9-4e4e-9034-c7cb9121ea15")
-		(property "Reference" "R305"
+		(property "Reference" "R318"
 			(at 50.038 156.21 90)
 			(effects
 				(font
@@ -8565,7 +8440,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R305")
+					(reference "R318")
 					(unit 1)
 				)
 			)
@@ -8581,7 +8456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c5f8c6-aa6e-4525-8596-b2d4b7e5eda7")
-		(property "Reference" "D302"
+		(property "Reference" "D301"
 			(at 247.65 51.1174 90)
 			(effects
 				(font
@@ -8644,7 +8519,73 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "D302")
+					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7efc6c6-776c-421c-82c7-bccfeb204490")
+		(property "Reference" "#PWR0225"
+			(at 233.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 233.68 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 233.68 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dac81dd-ea2c-4781-8137-5890f38d683c")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -8660,7 +8601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d32a75-ce6d-4c4a-85d7-a0030333bd1a")
-		(property "Reference" "R317"
+		(property "Reference" "R313"
 			(at 236.22 116.8399 0)
 			(effects
 				(font
@@ -8714,7 +8655,73 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R317")
+					(reference "R313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 109.22 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a94460b5-deef-40b2-be14-d2297f9c59c7")
+		(property "Reference" "#PWR0218"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 109.22 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 109.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc7cd20b-e66e-4b34-b36e-df65936315b6")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -8730,7 +8737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7d641b-5c93-46ef-95db-01a860d1e7f5")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0316"
 			(at 80.01 88.9 0)
 			(effects
 				(font
@@ -8781,7 +8788,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0308")
+					(reference "#PWR0316")
 					(unit 1)
 				)
 			)
@@ -8797,7 +8804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af18bf9d-5977-4a6e-933f-8b3ed2fc1e38")
-		(property "Reference" "C306"
+		(property "Reference" "C300"
 			(at 72.39 43.1799 0)
 			(effects
 				(font
@@ -8851,7 +8858,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C306")
+					(reference "C300")
 					(unit 1)
 				)
 			)
@@ -8867,7 +8874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b110ecd5-bd5c-4c11-86d4-21d6789d73c8")
-		(property "Reference" "C312"
+		(property "Reference" "C309"
 			(at 179.07 72.3899 0)
 			(effects
 				(font
@@ -8921,7 +8928,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C312")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -8937,7 +8944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4cb307b-d5fc-44b1-a469-4e9f34c1b7de")
-		(property "Reference" "R306"
+		(property "Reference" "R302"
 			(at 111.76 48.2599 0)
 			(effects
 				(font
@@ -8991,7 +8998,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R306")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -9006,7 +9013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4e91fd8-4273-4fc5-91d6-a324ed428c56")
-		(property "Reference" "R301"
+		(property "Reference" "R306"
 			(at 30.48 63.5 90)
 			(effects
 				(font
@@ -9058,7 +9065,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R301")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -9074,7 +9081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb51437c-32b7-40a0-81f1-63a37ee8e3fb")
-		(property "Reference" "C301"
+		(property "Reference" "C306"
 			(at 54.61 62.2299 0)
 			(effects
 				(font
@@ -9128,7 +9135,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C301")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -9144,7 +9151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcdaf6e0-60c9-4a26-8986-4896349b16a1")
-		(property "Reference" "R318"
+		(property "Reference" "R301"
 			(at 246.38 38.0999 0)
 			(effects
 				(font
@@ -9198,7 +9205,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R318")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -9214,7 +9221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be90b4a7-4520-4205-89a1-8b0e5c47091c")
-		(property "Reference" "C317"
+		(property "Reference" "C312"
 			(at 196.85 111.7599 0)
 			(effects
 				(font
@@ -9268,7 +9275,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C317")
+					(reference "C312")
 					(unit 1)
 				)
 			)
@@ -9284,7 +9291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "beb7732e-7c64-413e-b567-87de6da34d0d")
-		(property "Reference" "R307"
+		(property "Reference" "R312"
 			(at 111.76 116.8399 0)
 			(effects
 				(font
@@ -9338,73 +9345,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 109.22 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0aac052-bcca-4979-9014-6de14b1af6f3")
-		(property "Reference" "#PWR0317"
-			(at 109.22 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 109.22 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58bdbd56-feb2-4085-a39e-2afe1ed47ef8")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0317")
+					(reference "R312")
 					(unit 1)
 				)
 			)
@@ -9419,7 +9360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c24602f0-cb1a-4064-9b17-d9357620148a")
-		(property "Reference" "#PWR0338"
+		(property "Reference" "#PWR0301"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -9469,73 +9410,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0338")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 109.22 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2b376da-cf7c-4524-aa21-9d756e21813e")
-		(property "Reference" "#PWR0316"
-			(at 109.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 109.22 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 109.22 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0aef6ed4-c077-4aae-a307-5a60b2719e08")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0316")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -9630,7 +9505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c304ac8e-0cff-47cf-b607-2c3d995cf325")
-		(property "Reference" "C318"
+		(property "Reference" "C303"
 			(at 226.06 43.1799 0)
 			(effects
 				(font
@@ -9684,7 +9559,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C318")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -9700,7 +9575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7e63201-604b-485a-9be8-4d9bebb1da42")
-		(property "Reference" "C305"
+		(property "Reference" "C318"
 			(at 54.61 140.9699 0)
 			(effects
 				(font
@@ -9754,7 +9629,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C305")
+					(reference "C318")
 					(unit 1)
 				)
 			)
@@ -9770,7 +9645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ace5bf-f67b-440b-89b6-d2b68719ce3a")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0328"
 			(at 62.23 125.73 0)
 			(effects
 				(font
@@ -9821,7 +9696,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0303")
+					(reference "#PWR0328")
 					(unit 1)
 				)
 			)
@@ -9837,7 +9712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb52f0ec-6e8f-4c87-8538-3be2dfb74690")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0302"
 			(at 68.58 39.37 0)
 			(effects
 				(font
@@ -9887,7 +9762,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0304")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -9969,7 +9844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0f34110-2929-4cba-a15b-56543f34851d")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR0320"
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -10019,7 +9894,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0319")
+					(reference "#PWR0320")
 					(unit 1)
 				)
 			)
@@ -10035,7 +9910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d17967a3-bf59-470b-9622-98bee8a1a6b6")
-		(property "Reference" "C311"
+		(property "Reference" "C307"
 			(at 179.07 62.2299 0)
 			(effects
 				(font
@@ -10089,7 +9964,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C311")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -10105,7 +9980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2f90922-6658-4f45-8958-d17f2f61c582")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0336"
 			(at 80.01 157.48 0)
 			(effects
 				(font
@@ -10156,7 +10031,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0309")
+					(reference "#PWR0336")
 					(unit 1)
 				)
 			)
@@ -10172,7 +10047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7cedc9d-806a-4f5b-9d7b-e9ac8a2bbd6f")
-		(property "Reference" "#PWR0330"
+		(property "Reference" "#PWR0319"
 			(at 209.55 88.9 0)
 			(effects
 				(font
@@ -10223,7 +10098,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0330")
+					(reference "#PWR0319")
 					(unit 1)
 				)
 			)
@@ -10239,7 +10114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d95c3ca6-35c7-4829-94ce-ab3d54e0fa8e")
-		(property "Reference" "C319"
+		(property "Reference" "C313"
 			(at 226.06 111.7599 0)
 			(effects
 				(font
@@ -10293,7 +10168,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "C319")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -10308,7 +10183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dae2c9af-87e1-487f-a4d1-1f0fdc20e48d")
-		(property "Reference" "R304"
+		(property "Reference" "R308"
 			(at 50.038 87.63 90)
 			(effects
 				(font
@@ -10360,7 +10235,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R304")
+					(reference "R308")
 					(unit 1)
 				)
 			)
@@ -10376,7 +10251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de401255-272e-4fce-8d16-278793e3edfb")
-		(property "Reference" "#PWR0328"
+		(property "Reference" "#PWR0318"
 			(at 204.47 88.9 0)
 			(effects
 				(font
@@ -10427,7 +10302,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0328")
+					(reference "#PWR0318")
 					(unit 1)
 				)
 			)
@@ -10442,7 +10317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4e76844-ce79-42e7-9eb1-73719b7cf309")
-		(property "Reference" "R315"
+		(property "Reference" "R319"
 			(at 174.498 156.21 90)
 			(effects
 				(font
@@ -10494,7 +10369,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "R315")
+					(reference "R319")
 					(unit 1)
 				)
 			)
@@ -10510,7 +10385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7066dc5-81b5-45a2-adac-c52121ca1a52")
-		(property "Reference" "#PWR0313"
+		(property "Reference" "#PWR0310"
 			(at 97.79 57.15 0)
 			(effects
 				(font
@@ -10561,7 +10436,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0313")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -10647,72 +10522,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 233.68 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eed866d0-1bec-401f-b76b-ba3b4ddcec16")
-		(property "Reference" "#PWR0337"
-			(at 233.68 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 233.68 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 233.68 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c35d955-7bd5-4ec6-9e0e-d1ad27f32fe1")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0337")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 119.38 119.38 90)
 		(unit 1)
@@ -10722,7 +10531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0cc2586-e591-49ac-bf7d-99d4a99f120a")
-		(property "Reference" "D301"
+		(property "Reference" "D302"
 			(at 123.19 119.6974 90)
 			(effects
 				(font
@@ -10785,7 +10594,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "D301")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -10801,7 +10610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f58505eb-1b6e-43bd-a195-073b506e99ca")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0309"
 			(at 68.58 57.15 0)
 			(effects
 				(font
@@ -10852,7 +10661,73 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "#PWR0305")
+					(reference "#PWR0309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5b54b69-cba5-41a5-bc73-27409646347f")
+		(property "Reference" "#PWR0223"
+			(at 233.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82244b87-f273-4c76-b122-ee10ecb2ffcf")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
