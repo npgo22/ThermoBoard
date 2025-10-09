@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Thermocouple Board")
-		(date "2025-10-07")
+		(date "2025-10-09")
 		(rev "1A")
 		(company "Aggie Propulsion and Rocketry Lab")
 		(comment 1 "Drawn by: Nolan Poe")
@@ -4414,7 +4414,7 @@
 		)
 		(uuid "146f628a-0dc3-405f-adc4-017646f87da8")
 	)
-	(label "T1_IN-"
+	(label "T3_IN-"
 		(at 24.13 107.95 0)
 		(effects
 			(font
@@ -4484,7 +4484,7 @@
 		)
 		(uuid "412039ad-6e0d-46ea-96dc-7a7150d24971")
 	)
-	(label "T1_IN+"
+	(label "T3_IN+"
 		(at 24.13 105.41 0)
 		(effects
 			(font
@@ -5204,6 +5204,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C95177"
+			(at 174.498 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e19c7d28-f0f5-48d0-814b-6b74de036852")
 		)
@@ -5267,6 +5276,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 243.84 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105875"
+			(at 246.38 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,6 +5692,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2653162"
+			(at 211.8995 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "806eb57b-c42e-4a3e-af22-7c852b15c67c")
 		)
@@ -5841,6 +5868,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 72.39 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,6 +6211,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C95177"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44e8513b-986f-4dae-b62f-3bc109df6415")
 		)
@@ -6379,6 +6424,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 196.85 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3971ef3d-fd42-4b02-9d0a-08dcc1780d87")
 		)
@@ -6442,6 +6496,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 97.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 101.6 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,6 +6576,15 @@
 		)
 		(property "Description" "Precision Thermocouple to Digital Converter with Linearization, TSSOP-14"
 			(at 82.55 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2653162"
+			(at 87.4395 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,6 +6688,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 160.02 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,6 +6841,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 54.61 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa27100b-e991-41bc-a981-050ad95d15d4")
 		)
@@ -6886,6 +6976,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7020,6 +7119,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 35.56 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 30.48 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7298,6 +7406,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105875"
+			(at 121.92 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75042b22-1e3b-4c26-854c-34b9897b9775")
 		)
@@ -7361,6 +7478,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 54.61 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7432,6 +7558,15 @@
 		)
 		(property "Description" "Precision Thermocouple to Digital Converter with Linearization, TSSOP-14"
 			(at 82.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2653162"
+			(at 87.4395 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7868,6 +8003,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C95177"
+			(at 30.48 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df8803fb-810f-45ac-bd30-6969bb979f79")
 		)
@@ -8002,6 +8146,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C95177"
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bfd3c30-1ca3-4626-93cb-821d20e2c0ab")
 		)
@@ -8065,6 +8218,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 54.61 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8274,6 +8436,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 101.6 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "797b7479-9727-4f3a-ad1d-dceffcacb0f2")
 		)
@@ -8471,6 +8642,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 179.07 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8946,6 +9126,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 179.07 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2177caf8-d51c-4fa3-9f4b-deb9c8f791ed")
 		)
@@ -9009,6 +9198,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 119.38 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105875"
+			(at 121.92 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9285,6 +9483,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 179.07 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1655d68f-006e-4d68-a1d8-4a2b01d6fc39")
 		)
@@ -9422,6 +9629,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 54.61 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ae0b51a7-dbf9-417f-b35d-e3e8e5f7a7e2")
 		)
@@ -9485,6 +9701,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 179.07 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,6 +9922,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 236.22 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a39bbe1-20fe-49a7-9299-0d6b753eca06")
 		)
@@ -9757,6 +9991,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 160.02 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 154.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,6 +10344,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C95177"
+			(at 50.038 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a28496fe-a683-4317-8184-80a2fd15f7b6")
 		)
@@ -10173,6 +10425,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 243.84 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965793"
+			(at 247.65 51.1174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10309,6 +10570,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 233.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 236.22 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10519,6 +10789,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 72.39 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5a9642b-ba1a-44ba-b89c-efd230b86399")
 		)
@@ -10582,6 +10861,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 175.26 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 179.07 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10727,6 +11015,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C60490"
+			(at 111.76 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af390022-eaea-4df7-8e6c-2a1b552764b7")
 		)
@@ -10787,6 +11084,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 30.48 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10932,6 +11238,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 54.61 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0da14745-ea63-45f1-b0fa-fff5baee7fc4")
 		)
@@ -10995,6 +11310,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 243.84 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105875"
+			(at 246.38 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,6 +11522,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 196.85 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "88031017-26e3-4aa5-83cd-00bb46e3ce42")
 		)
@@ -11261,6 +11594,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 109.22 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60490"
+			(at 111.76 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11412,6 +11754,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965793"
+			(at 123.19 51.1174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "505029f0-36e5-425c-960d-c701c71435ce")
 		)
@@ -11475,6 +11826,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 222.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 226.06 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,6 +11973,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 50.8 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 54.61 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11888,6 +12257,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 179.07 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b20b60f-2aad-45ba-b6fe-f78e0228f2e0")
 		)
@@ -12092,6 +12470,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 226.06 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "78e9740d-2de3-4cdd-bd29-9e97d71f590f")
 		)
@@ -12152,6 +12539,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C95177"
+			(at 50.038 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12360,6 +12756,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C95177"
+			(at 174.498 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47681a54-fa71-40f5-9d67-c9d11f8854f6")
 		)
@@ -12499,6 +12904,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965793"
+			(at 247.65 119.6974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,6 +13060,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C965793"
+			(at 123.19 119.6974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12850,6 +13273,15 @@
 		)
 		(property "Description" "Precision Thermocouple to Digital Converter with Linearization, TSSOP-14"
 			(at 207.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2653162"
+			(at 211.8995 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

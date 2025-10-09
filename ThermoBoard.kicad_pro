@@ -68,7 +68,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -95,31 +95,11 @@
       ],
       "drc_exclusions": [
         [
-          "text_thickness|101900000|78600000|5a69c29c-31b5-4350-9a66-c02e54080d17|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|179750000|131620000|ad403c61-29b4-46ad-b428-b238830a9898|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "text_thickness|105400000|93600000|21bd58cc-87a8-4b40-b21c-6295526ea725|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|105500000|96200000|62cc146d-86d0-425c-a4e2-f85ca34f59d6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|105600000|103800000|4716bafa-f1f7-4f63-9102-e63cbeb98750|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|107200000|86000000|9f6f2564-fed7-46a8-abdc-ee56e4384e23|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|119700000|65000000|05dccc79-6177-4e30-9fdf-5595dd9929d9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|146600000|88300000|d3ba9f67-0174-4ebd-b52e-518d8550e3e8|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|181035000|147150000|3d69cb23-51a2-46c8-99b4-7455358eda1d|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -141,7 +121,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
@@ -172,7 +152,7 @@
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -259,15 +239,15 @@
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 3.0,
+          "corner_style": 0,
+          "max_amplitude": 0.5,
           "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.5
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_style": 0,
           "max_amplitude": 3.0,
           "min_amplitude": 0.1,
           "single_sided": false,
@@ -275,9 +255,9 @@
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.4,
+          "corner_style": 0,
+          "max_amplitude": 2.0,
+          "min_amplitude": 0.1,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -582,7 +562,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(100, 255, 29)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
@@ -596,7 +576,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Ethernet",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 24, 60)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.247904,
@@ -610,7 +590,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.3,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(33, 60, 255)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.315468,
@@ -643,6 +623,10 @@
       {
         "netclass": "CAN",
         "pattern": "/CAN/*"
+      },
+      {
+        "netclass": "Ethernet",
+        "pattern": "ETH*"
       }
     ]
   },

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Thermocouple Board")
-		(date "2025-10-07")
+		(date "2025-10-09")
 		(rev "1A")
 		(company "Aggie Propulsion and Rocketry Lab")
 		(comment 1 "Drawn by: Nolan Poe")
@@ -2187,6 +2187,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 44.45 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ea9a0018-5222-4b2c-b649-ab492944a4ec")
 		)
@@ -2470,6 +2479,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2337"
+			(at 132.08 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce66106f-7ac3-437f-bf97-4f1f259efc7e")
 		)
@@ -2532,6 +2550,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137954"
+			(at 94.234 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,6 +2629,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2337"
+			(at 203.2 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,6 +2849,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C87044"
+			(at 87.884 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d2831ac-7140-4a9d-ac80-a61be04fb684")
 		)
@@ -2873,6 +2918,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87044"
+			(at 87.884 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3085,6 +3139,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22445414"
+			(at 54.4195 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1247f0c-8539-41f3-b5ad-9938858abd91")
 		)
@@ -3238,6 +3301,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C19702"
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20c2a35f-c8fe-4316-8432-317e00c7a7c4")
 		)
@@ -3374,6 +3446,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 26.67 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "abb1dc4b-2227-4690-abfe-a188c2595a41")
 		)
@@ -3435,6 +3516,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 119.38 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19702"
+			(at 119.38 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3504,6 +3594,15 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 102.87 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137954"
+			(at 94.234 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)

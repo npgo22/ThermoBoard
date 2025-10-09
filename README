@@ -1,7 +1,5 @@
 STATUS:
-Initial decent layout and schematic are complete. Mapping must be done for LCSC components before JLCPCB/LCSC order.
+Initial decent layout and schematic are complete. PCB meets basic requirements.
 
 TODO:
-- Finalize component selections
-- Map parts to LCSC order
-- KiBot actions for automated printing(?) and DRC checking
+- Further review
