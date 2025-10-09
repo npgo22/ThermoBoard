@@ -93,16 +93,7 @@
           "width": 0.315468
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|179750000|131620000|ad403c61-29b4-46ad-b428-b238830a9898|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|181035000|147150000|3d69cb23-51a2-46c8-99b4-7455358eda1d|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -239,7 +230,7 @@
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 0,
+          "corner_style": 1,
           "max_amplitude": 0.5,
           "min_amplitude": 0.1,
           "single_sided": false,
@@ -247,7 +238,7 @@
         },
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 0,
+          "corner_style": 1,
           "max_amplitude": 3.0,
           "min_amplitude": 0.1,
           "single_sided": false,
@@ -255,11 +246,11 @@
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
-          "corner_style": 0,
-          "max_amplitude": 2.0,
+          "corner_style": 1,
+          "max_amplitude": 0.5,
           "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.5
         }
       },
       "via_dimensions": [
@@ -550,7 +541,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -558,28 +549,28 @@
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.3459,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN",
-        "pcb_color": "rgb(100, 255, 29)",
-        "priority": 0,
+        "pcb_color": "rgb(255, 0, 19)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1326,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Ethernet",
-        "pcb_color": "rgb(255, 24, 60)",
-        "priority": 2,
+        "pcb_color": "rgb(16, 1, 255)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.247904,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
@@ -589,11 +580,25 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.3,
-        "name": "USB",
-        "pcb_color": "rgb(33, 60, 255)",
-        "priority": 1,
+        "name": "PWR",
+        "pcb_color": "rgb(146, 0, 0)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.315468,
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.1656,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "USB",
+        "pcb_color": "rgb(0, 255, 89)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -627,6 +632,18 @@
       {
         "netclass": "Ethernet",
         "pattern": "ETH*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "**/USB_D*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "GND"
       }
     ]
   },

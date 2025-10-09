@@ -5401,7 +5401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCCSMPK5"
+		(property "Footprint" "Omega:PCCSMPK5"
 			(at 172.72 131.75 0)
 			(effects
 				(font
@@ -5992,7 +5992,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCCSMPK5"
+		(property "Footprint" "Omega:PCCSMPK5"
 			(at 175.26 199.06 0)
 			(effects
 				(font
@@ -7784,7 +7784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCCSMPK5"
+		(property "Footprint" "Omega:PCCSMPK5"
 			(at 49.53 200.33 0)
 			(effects
 				(font
@@ -11367,7 +11367,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCCSMPK5"
+		(property "Footprint" "Omega:PCCSMPK5"
 			(at 49.53 130.48 0)
 			(effects
 				(font
