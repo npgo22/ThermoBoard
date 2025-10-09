@@ -13,169 +13,6 @@
 		(comment 2 "Checked by: Daniel Fan")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint_Small"
 			(pin_numbers
 				(hide yes)
@@ -1234,6 +1071,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCC-SMP-K-5:PCC-SMP-K-5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PCC-SMP-K-5"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PCCSMPK5"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://br.omega.com/omegaFiles/temperature/pdf/PCC-OST-SMP.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "OMEGA - PCC-SMP-K-5 - THERMOCOUPLE CONN, K TYPE, RCPT, PK 5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.3"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Avnet Part Number" ""
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Avnet Price/Stock" ""
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "OMEGA"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PCC-SMP-K-5"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PCC-SMP-K-5_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3VA"
 			(power)
 			(pin_numbers
@@ -1662,6 +1687,12 @@
 		(uuid "0158b4d9-bd6c-492a-90e2-f4d9b4687487")
 	)
 	(junction
+		(at 55.88 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02b9fb68-edd2-4bc8-9f76-3020378e5854")
+	)
+	(junction
 		(at 222.25 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1746,6 +1777,12 @@
 		(uuid "78e9f845-b322-4c9c-b3ad-1a4803639e9e")
 	)
 	(junction
+		(at 179.07 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d27326-45e9-4066-8100-5c00eeb8c60d")
+	)
+	(junction
 		(at 68.58 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1798,6 +1835,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99c58c91-a6c9-4fad-92f6-64ed5c5e9c76")
+	)
+	(junction
+		(at 181.61 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a90a3d1f-319c-4e02-907b-9ee01db58638")
 	)
 	(junction
 		(at 50.8 137.16)
@@ -1864,6 +1907,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9c18f5a-6d3d-418c-9c9e-591333bb9267")
+	)
+	(junction
+		(at 55.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea2d5fb5-62cc-4f13-882c-b544ec26b2ec")
 	)
 	(junction
 		(at 222.25 64.77)
@@ -1994,6 +2043,36 @@
 			(type default)
 		)
 		(uuid "043547f3-38b9-4e4f-8764-72b9714e2750")
+	)
+	(wire
+		(pts
+			(xy 146.05 39.37) (xy 153.67 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046bdded-fc3d-4e03-8c10-f425ea82627f")
+	)
+	(wire
+		(pts
+			(xy 181.61 106.68) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0470924c-1f33-46fb-8e9e-d0eca82de10b")
+	)
+	(wire
+		(pts
+			(xy 148.59 104.14) (xy 156.21 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049e08a3-0d01-4add-9ced-a1388e90234b")
 	)
 	(wire
 		(pts
@@ -2177,6 +2256,26 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 107.95) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a276d5-6818-452e-a96c-22e524082bf9")
+	)
+	(wire
+		(pts
+			(xy 179.07 39.37) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19210bcb-4a01-4525-be6c-a81266a667d6")
+	)
+	(wire
+		(pts
 			(xy 50.8 127) (xy 59.69 127)
 		)
 		(stroke
@@ -2194,6 +2293,26 @@
 			(type default)
 		)
 		(uuid "1a6b4678-d7cd-43fd-8131-817225fd247a")
+	)
+	(wire
+		(pts
+			(xy 20.32 62.23) (xy 31.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a90d6fe-1435-4f11-9c13-b5f23f489930")
+	)
+	(wire
+		(pts
+			(xy 144.78 64.77) (xy 152.4 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6f21a1-f40f-4af7-be0d-0054fabd3c92")
 	)
 	(wire
 		(pts
@@ -2247,6 +2366,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 107.95) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1de296e8-fcf0-4982-8dc9-33743504619d")
+	)
+	(wire
+		(pts
 			(xy 193.04 35.56) (xy 193.04 38.1)
 		)
 		(stroke
@@ -2284,16 +2413,6 @@
 			(type default)
 		)
 		(uuid "20d54edc-5248-4252-99f7-b932a268ef6a")
-	)
-	(wire
-		(pts
-			(xy 149.86 64.77) (xy 152.4 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2141bdaf-7286-4b18-a823-ba44e4351bbc")
 	)
 	(wire
 		(pts
@@ -2354,6 +2473,16 @@
 			(type default)
 		)
 		(uuid "29844699-56b3-49b6-abb6-56cf342ff05a")
+	)
+	(wire
+		(pts
+			(xy 152.4 133.35) (xy 156.21 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29eff592-40ee-412f-90d8-2f1112a06647")
 	)
 	(wire
 		(pts
@@ -2427,6 +2556,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 39.37) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31930a88-14a7-415e-ad24-ff2d249aa296")
+	)
+	(wire
+		(pts
 			(xy 50.8 46.99) (xy 50.8 49.53)
 		)
 		(stroke
@@ -2444,16 +2583,6 @@
 			(type default)
 		)
 		(uuid "341e2c9d-b040-41f3-9b48-e621b57f7fbf")
-	)
-	(wire
-		(pts
-			(xy 31.75 130.81) (xy 25.4 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34eb4d96-5a5d-487a-ab45-c3aded1c6bf6")
 	)
 	(wire
 		(pts
@@ -2527,16 +2656,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 133.35) (xy 156.21 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b8519fa-b854-4e16-ba4f-49de76eeb4ff")
-	)
-	(wire
-		(pts
 			(xy 68.58 104.14) (xy 68.58 106.68)
 		)
 		(stroke
@@ -2597,6 +2716,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 40.64) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a00b54-7fdd-42f7-a387-ded440becaba")
+	)
+	(wire
+		(pts
 			(xy 170.18 137.16) (xy 175.26 137.16)
 		)
 		(stroke
@@ -2604,6 +2733,16 @@
 			(type default)
 		)
 		(uuid "43eff6a5-d794-476f-8aa8-d99132dbc1f7")
+	)
+	(wire
+		(pts
+			(xy 144.78 62.23) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452214fc-11e4-4216-aa58-7c76313b4daf")
 	)
 	(wire
 		(pts
@@ -2734,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "5159a020-7047-4047-ae4d-62feb5df3cdb")
+	)
+	(wire
+		(pts
+			(xy 179.07 104.14) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "520dea9d-81f2-4902-b698-9e3d0833f475")
 	)
 	(wire
 		(pts
@@ -2897,6 +3046,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 38.1) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62170977-32cb-43a2-87cc-8fa87c2abdf7")
+	)
+	(wire
+		(pts
 			(xy 219.71 140.97) (xy 240.03 140.97)
 		)
 		(stroke
@@ -2904,6 +3063,16 @@
 			(type default)
 		)
 		(uuid "621f6361-49e0-4d50-97d8-c8f297e35073")
+	)
+	(wire
+		(pts
+			(xy 24.13 105.41) (xy 30.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "621f67bd-0674-4316-bd0a-61fcbf7a12a6")
 	)
 	(wire
 		(pts
@@ -2947,6 +3116,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 38.1) (xy 55.88 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d578de-54f2-4291-91ed-cfd7aabec27c")
+	)
+	(wire
+		(pts
 			(xy 222.25 64.77) (xy 219.71 64.77)
 		)
 		(stroke
@@ -2964,6 +3143,16 @@
 			(type default)
 		)
 		(uuid "67759649-87ca-4e64-bbd7-80ac4b5551de")
+	)
+	(wire
+		(pts
+			(xy 146.05 36.83) (xy 153.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ee2c4f-eed7-4e26-bc90-334111a02a2d")
 	)
 	(wire
 		(pts
@@ -3007,16 +3196,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 130.81) (xy 149.86 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7242c6b2-7853-4eec-8ddf-11b3133fe6bb")
-	)
-	(wire
-		(pts
 			(xy 45.72 137.16) (xy 50.8 137.16)
 		)
 		(stroke
@@ -3024,16 +3203,6 @@
 			(type default)
 		)
 		(uuid "7285d1b6-a797-4d95-97f2-788759be976a")
-	)
-	(wire
-		(pts
-			(xy 149.86 133.35) (xy 152.4 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73f3acbd-9b2e-4689-8405-f8955a9d52b3")
 	)
 	(wire
 		(pts
@@ -3084,6 +3253,16 @@
 			(type default)
 		)
 		(uuid "7a0994dd-3770-47a3-be0e-a284c2a5ff3c")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 156.21 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be5e6c9-c06b-4d72-9b30-8b075c4e7916")
 	)
 	(wire
 		(pts
@@ -3187,6 +3366,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 38.1) (xy 30.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837a8de3-3465-4d1c-ae84-992064e89f5e")
+	)
+	(wire
+		(pts
 			(xy 186.69 46.99) (xy 175.26 46.99)
 		)
 		(stroke
@@ -3237,6 +3426,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 36.83) (xy 179.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edd24b8-3dc5-46e0-9372-689bdb01270c")
+	)
+	(wire
+		(pts
 			(xy 95.25 140.97) (xy 115.57 140.97)
 		)
 		(stroke
@@ -3244,6 +3443,26 @@
 			(type default)
 		)
 		(uuid "8f776cd8-cae6-4138-bfeb-c4b03ac87765")
+	)
+	(wire
+		(pts
+			(xy 53.34 107.95) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c55379-1bbf-4c79-926c-9062bee7ce1f")
+	)
+	(wire
+		(pts
+			(xy 20.32 133.35) (xy 27.94 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921e804f-4890-42d5-a582-32b55076a45d")
 	)
 	(wire
 		(pts
@@ -3287,16 +3506,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 62.23) (xy 149.86 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a967cb-7a0a-402d-b391-39edf0dd635f")
-	)
-	(wire
-		(pts
 			(xy 45.72 64.77) (xy 45.72 68.58)
 		)
 		(stroke
@@ -3337,6 +3546,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 109.22) (xy 55.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995169fe-6842-40ed-a97b-1495ea8c929f")
+	)
+	(wire
+		(pts
 			(xy 233.68 133.35) (xy 240.03 133.35)
 		)
 		(stroke
@@ -3367,6 +3586,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 130.81) (xy 31.75 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f8cc96-4d81-449c-9e03-ebb941e4fcd0")
+	)
+	(wire
+		(pts
 			(xy 204.47 82.55) (xy 204.47 80.01)
 		)
 		(stroke
@@ -3374,6 +3603,16 @@
 			(type default)
 		)
 		(uuid "a2cd4fde-9d19-4b8c-bc07-236fa4d9c799")
+	)
+	(wire
+		(pts
+			(xy 144.78 133.35) (xy 152.4 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40fdcd4-40f2-4148-a733-9298517648ee")
 	)
 	(wire
 		(pts
@@ -3464,6 +3703,16 @@
 			(type default)
 		)
 		(uuid "aff45c44-fc63-4111-9bf8-39a57ba6f455")
+	)
+	(wire
+		(pts
+			(xy 20.32 64.77) (xy 27.94 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06da7a0-2dd8-4cee-9a12-9f66928c4fd4")
 	)
 	(wire
 		(pts
@@ -3617,6 +3866,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 35.56) (xy 30.48 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ed3b3c-46b2-48fd-ac23-40f6f63cf5c8")
+	)
+	(wire
+		(pts
 			(xy 80.01 38.1) (xy 80.01 49.53)
 		)
 		(stroke
@@ -3677,6 +3936,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 35.56) (xy 55.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73286de-652e-4e89-a6ff-fe9a7115757b")
+	)
+	(wire
+		(pts
 			(xy 119.38 54.61) (xy 119.38 59.69)
 		)
 		(stroke
@@ -3684,6 +3953,16 @@
 			(type default)
 		)
 		(uuid "c8d7b9e8-7b01-48f7-904a-36414d3c8ec9")
+	)
+	(wire
+		(pts
+			(xy 179.07 106.68) (xy 181.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c949d5e4-1a19-43f0-ae80-2523693da89c")
 	)
 	(wire
 		(pts
@@ -3767,6 +4046,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 105.41) (xy 55.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18efc2f-fc52-47b3-8e0f-a132e13db814")
+	)
+	(wire
+		(pts
 			(xy 175.26 125.73) (xy 175.26 127)
 		)
 		(stroke
@@ -3814,6 +4103,16 @@
 			(type default)
 		)
 		(uuid "d640fe86-79cc-4610-ad62-12d32229b77e")
+	)
+	(wire
+		(pts
+			(xy 24.13 107.95) (xy 30.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d709fb67-ff2d-451e-b9cd-037c1fd25de2")
 	)
 	(wire
 		(pts
@@ -3874,6 +4173,16 @@
 			(type default)
 		)
 		(uuid "db5164a3-e9d1-4e15-8fb5-96acd4291fea")
+	)
+	(wire
+		(pts
+			(xy 144.78 130.81) (xy 156.21 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe77957-2f4a-4627-bd8f-665c560e1061")
 	)
 	(wire
 		(pts
@@ -3957,6 +4266,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 39.37) (xy 179.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e829098c-bac3-4c68-ab4d-ede2a0896546")
+	)
+	(wire
+		(pts
 			(xy 204.47 106.68) (xy 204.47 118.11)
 		)
 		(stroke
@@ -3974,16 +4293,6 @@
 			(type default)
 		)
 		(uuid "ee508589-4f24-4159-8a6e-fdea12005dc5")
-	)
-	(wire
-		(pts
-			(xy 31.75 62.23) (xy 25.4 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f00c1b96-ec4c-4e82-93d0-f6d238c339a7")
 	)
 	(wire
 		(pts
@@ -4057,16 +4366,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 64.77) (xy 27.94 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6f7d9f-5fb7-40be-b627-ed4feed616ad")
-	)
-	(wire
-		(pts
 			(xy 119.38 123.19) (xy 119.38 128.27)
 		)
 		(stroke
@@ -4077,16 +4376,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 133.35) (xy 27.94 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff951b47-f27c-493a-bdfe-3c9219bcf2fc")
-	)
-	(wire
-		(pts
 			(xy 80.01 151.13) (xy 80.01 148.59)
 		)
 		(stroke
@@ -4094,6 +4383,56 @@
 			(type default)
 		)
 		(uuid "ffdb5535-44a1-4f95-aac0-c0ef9c3bd20f")
+	)
+	(label "T4_IN-"
+		(at 148.59 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05fe498a-e5cf-41af-845e-43d62eedc557")
+	)
+	(label "T2_IN+"
+		(at 146.05 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07223b19-c440-40de-b89e-9f81189d17a3")
+	)
+	(label "T2_IN-"
+		(at 146.05 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "146f628a-0dc3-405f-adc4-017646f87da8")
+	)
+	(label "T1_IN-"
+		(at 24.13 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1995cc97-9f17-4fbf-9b51-a47275e21680")
+	)
+	(label "T4_IN+"
+		(at 144.78 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c6002e9-e59d-420d-b876-151aa3cad2b3")
 	)
 	(label "T4-"
 		(at 187.96 133.35 0)
@@ -4135,6 +4474,46 @@
 		)
 		(uuid "3b1b22ed-e56b-414c-87a1-9a6df7a7cb6d")
 	)
+	(label "T1_IN-"
+		(at 20.32 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "412039ad-6e0d-46ea-96dc-7a7150d24971")
+	)
+	(label "T1_IN+"
+		(at 24.13 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42cc8689-70c9-4e82-8c1a-5a2b1ca57e83")
+	)
+	(label "T1_IN+"
+		(at 24.13 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "497a5fa6-4822-4b06-8a76-ae23fd61756d")
+	)
+	(label "T1_IN+"
+		(at 20.32 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62027712-a37f-414a-9db2-7484c85cca52")
+	)
 	(label "T3+"
 		(at 63.5 130.81 0)
 		(effects
@@ -4145,6 +4524,16 @@
 		)
 		(uuid "6a1c9d35-98ab-4755-975f-d33aa6726a70")
 	)
+	(label "T3_IN-"
+		(at 20.32 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f35fa48-810e-43e7-9b16-9bfd6790e955")
+	)
 	(label "T4+"
 		(at 187.96 130.81 0)
 		(effects
@@ -4154,6 +4543,16 @@
 			(justify left bottom)
 		)
 		(uuid "82f11629-6f79-4e6e-84d0-fae88450ac20")
+	)
+	(label "T2_IN-"
+		(at 144.78 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ad4e2a4-856b-4646-a904-4bb6e06adc24")
 	)
 	(label "T3-"
 		(at 63.5 133.35 0)
@@ -4174,6 +4573,56 @@
 			(justify left bottom)
 		)
 		(uuid "92ea3d31-c1a7-436e-ac3f-c6b1bad80de3")
+	)
+	(label "T4_IN-"
+		(at 144.78 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "983011e2-30c3-406e-baf2-daeede695f07")
+	)
+	(label "T4_IN+"
+		(at 148.59 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5d06ac6-9a64-4f3b-a9ee-8af5e2e8265f")
+	)
+	(label "T3_IN+"
+		(at 20.32 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc3aea18-f888-4ec2-9443-db4ebd292749")
+	)
+	(label "T1_IN-"
+		(at 24.13 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bec37fc6-1267-4a18-9cbc-6c275e7ba028")
+	)
+	(label "T2_IN+"
+		(at 144.78 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0840138-2a38-4876-aaba-85fa9a99b522")
 	)
 	(global_label "SPI_MISO"
 		(shape output)
@@ -4909,6 +5358,132 @@
 		)
 	)
 	(symbol
+		(lib_id "PCC-SMP-K-5:PCC-SMP-K-5")
+		(at 153.67 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ce891fb-ef85-43c3-a3e4-ad62985f9245")
+		(property "Reference" "J106"
+			(at 165.1 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCC-SMP-K-5"
+			(at 165.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCCSMPK5"
+			(at 172.72 131.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.omega.com/omegaFiles/temperature/pdf/PCC-OST-SMP.pdf"
+			(at 172.72 231.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMEGA - PCC-SMP-K-5 - THERMOCOUPLE CONN, K TYPE, RCPT, PK 5"
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.3"
+			(at 172.72 431.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Part Number" ""
+			(at 172.72 531.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Price/Stock" ""
+			(at 172.72 631.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "OMEGA"
+			(at 172.72 731.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCC-SMP-K-5"
+			(at 172.72 831.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "14346619-54cd-4e63-99f0-2ede3a14a729")
+		)
+		(pin "2"
+			(uuid "4af49c5b-f727-4bca-a823-edfdcde35766")
+		)
+		(pin "1"
+			(uuid "dcc08c7e-ec48-4e5d-b254-4e3d34e3ffa7")
+		)
+		(pin "MH2"
+			(uuid "399626c6-d508-4b86-860a-55c58988c70a")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "J106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 62.23 50.8 0)
 		(unit 1)
@@ -5350,6 +5925,132 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "#PWR0338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCC-SMP-K-5:PCC-SMP-K-5")
+		(at 156.21 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cf8a5b2-fc13-480e-b916-55b8ed17b80f")
+		(property "Reference" "J108"
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCC-SMP-K-5"
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCCSMPK5"
+			(at 175.26 199.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.omega.com/omegaFiles/temperature/pdf/PCC-OST-SMP.pdf"
+			(at 175.26 299.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMEGA - PCC-SMP-K-5 - THERMOCOUPLE CONN, K TYPE, RCPT, PK 5"
+			(at 156.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.3"
+			(at 175.26 499.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Part Number" ""
+			(at 175.26 599.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Price/Stock" ""
+			(at 175.26 699.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "OMEGA"
+			(at 175.26 799.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCC-SMP-K-5"
+			(at 175.26 899.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "8971e4d9-69ff-4f90-8888-33835585be0f")
+		)
+		(pin "2"
+			(uuid "cfc4ddd6-4bb2-4040-bd54-815c1dde4ac5")
+		)
+		(pin "1"
+			(uuid "dc856abb-ee8f-4cd8-93a0-4c0edb9a7eae")
+		)
+		(pin "MH2"
+			(uuid "47928e7c-6370-4dcf-8374-25c0998685ed")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "J108")
 					(unit 1)
 				)
 			)
@@ -5932,6 +6633,73 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "R307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ae9ca1-16e2-4c9c-89ec-d2f14c17a413")
+		(property "Reference" "#PWR0138"
+			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf8dada-7a11-41aa-b325-8c5691c352e2")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -6616,73 +7384,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 144.78 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4cefc2f0-858c-4125-b3f3-4823d848e285")
-		(property "Reference" "J301"
-			(at 146.05 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 150.876 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 144.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 144.78 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44d5b408-cecd-45ed-a921-d6a0b8116b1f")
-		)
-		(pin "1"
-			(uuid "24e8682a-7cc3-4c63-b7b7-e6c4386ec4df")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "J301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MAX31856TriState:MAX31856")
 		(at 82.55 64.77 0)
 		(unit 1)
@@ -6784,73 +7485,6 @@
 			(project ""
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "U300")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dbd2128-398d-45c2-b4f1-d72364a66cc4")
-		(property "Reference" "J302"
-			(at 21.59 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 26.416 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1838caad-5f80-49ba-b107-6f689e4ad98c")
-		)
-		(pin "1"
-			(uuid "687c451a-f9c3-4224-9b36-0a716b694b72")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "J302")
 					(unit 1)
 				)
 			)
@@ -6984,6 +7618,132 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "#PWR0221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCC-SMP-K-5:PCC-SMP-K-5")
+		(at 30.48 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "554e3e3b-a7eb-4982-b1db-e2b2ec62008e")
+		(property "Reference" "J107"
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCC-SMP-K-5"
+			(at 41.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCCSMPK5"
+			(at 49.53 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.omega.com/omegaFiles/temperature/pdf/PCC-OST-SMP.pdf"
+			(at 49.53 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMEGA - PCC-SMP-K-5 - THERMOCOUPLE CONN, K TYPE, RCPT, PK 5"
+			(at 30.48 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.3"
+			(at 49.53 500.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Part Number" ""
+			(at 49.53 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Price/Stock" ""
+			(at 49.53 700.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "OMEGA"
+			(at 49.53 800.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCC-SMP-K-5"
+			(at 49.53 900.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "7cef53a6-1951-46a1-9379-ffde1293c9cc")
+		)
+		(pin "2"
+			(uuid "cfdab2f7-d131-4e80-ac68-c4ce13238b1d")
+		)
+		(pin "1"
+			(uuid "ca4456f8-6609-49a6-8d85-ee65c5b51fa2")
+		)
+		(pin "MH2"
+			(uuid "ba684894-96ac-44a9-ba25-5623b1552d82")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "J107")
 					(unit 1)
 				)
 			)
@@ -8065,6 +8825,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 55.88 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77264b03-f78f-4d87-b589-d96f81874263")
+		(property "Reference" "#PWR0137"
+			(at 55.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8cf2f12-9139-46aa-a8a0-f7b6f4d8d600")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 175.26 121.92 0)
 		(unit 1)
@@ -8264,6 +9091,73 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "#PWR0321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 181.61 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "808629fc-9f55-4365-95f9-877140cdec9b")
+		(property "Reference" "#PWR0139"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "872537a7-7f87-468b-bf98-95274b6401a0")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -8538,73 +9432,6 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "C308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 20.32 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "852ac291-b367-491b-b70c-d5a1dc0c6c40")
-		(property "Reference" "J300"
-			(at 21.59 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 26.416 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 20.32 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e440c14-7c6c-4281-937f-bed3449a830e")
-		)
-		(pin "1"
-			(uuid "256b4cfe-9230-48b8-bda8-1a60794fb500")
-		)
-		(instances
-			(project ""
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "J300")
 					(unit 1)
 				)
 			)
@@ -10191,6 +11018,132 @@
 		)
 	)
 	(symbol
+		(lib_id "PCC-SMP-K-5:PCC-SMP-K-5")
+		(at 30.48 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bced31a7-1032-430a-b13a-554dcbcea667")
+		(property "Reference" "J105"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCC-SMP-K-5"
+			(at 41.91 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCCSMPK5"
+			(at 49.53 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://br.omega.com/omegaFiles/temperature/pdf/PCC-OST-SMP.pdf"
+			(at 49.53 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "OMEGA - PCC-SMP-K-5 - THERMOCOUPLE CONN, K TYPE, RCPT, PK 5"
+			(at 30.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.3"
+			(at 49.53 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Part Number" ""
+			(at 49.53 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Avnet Price/Stock" ""
+			(at 49.53 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "OMEGA"
+			(at 49.53 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCC-SMP-K-5"
+			(at 49.53 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MH1"
+			(uuid "ba89b70f-f29d-4a5b-ad1b-c398fc7eac57")
+		)
+		(pin "2"
+			(uuid "ecd05d82-2700-433e-a31a-32c01a12339f")
+		)
+		(pin "1"
+			(uuid "7d729bf5-ab43-461a-9b94-32899a55d5de")
+		)
+		(pin "MH2"
+			(uuid "246c3768-c60f-43cd-b9cc-70b474e26ee4")
+		)
+		(instances
+			(project ""
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "J105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 193.04 113.03 0)
 		(unit 1)
@@ -10816,73 +11769,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 144.78 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ce4a72c0-24e3-4a38-83a1-99e8a2a382a7")
-		(property "Reference" "J303"
-			(at 146.05 124.206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 150.876 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 144.78 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 144.78 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6a4ab89-374d-4b18-b59c-4165943f279c")
-		)
-		(pin "1"
-			(uuid "356438b9-2b3f-453d-a311-f89f8c4943d7")
-		)
-		(instances
-			(project "ThermoBoard"
-				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
-					(reference "J303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 119.38 100.33 0)
 		(unit 1)
@@ -11350,6 +12236,73 @@
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
 					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e12729d6-93e2-4077-871e-c6ac41fa5bfd")
+		(property "Reference" "#PWR0140"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1538a185-4225-4172-8b57-ea40515b79f6")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d0edba51-f399-42ee-9bc0-cc87d23748a9"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)

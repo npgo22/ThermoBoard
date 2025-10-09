@@ -5530,16 +5530,6 @@
 		)
 		(uuid "3f149ce9-23fb-44ed-bf62-9ac42ec91336")
 	)
-	(label "RX+"
-		(at 228.6 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b794e57-0ced-4206-bbec-a68b49ea3052")
-	)
 	(label "LED1-REGOFF"
 		(at 154.94 99.06 180)
 		(effects
@@ -5570,15 +5560,15 @@
 		)
 		(uuid "808f57fc-6d73-4661-ac76-9a500f99e4e6")
 	)
-	(label "RX-"
-		(at 228.6 55.88 0)
+	(label "RX+"
+		(at 228.6 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "89d5c4c8-700c-4ada-bd8f-817d7f2fc41e")
+		(uuid "888e4258-5802-494d-a9da-811a16f25274")
 	)
 	(label "TX+"
 		(at 224.79 78.74 180)
@@ -5619,6 +5609,16 @@
 			(justify left bottom)
 		)
 		(uuid "a5cd2998-67b7-4214-9676-8dfc56a2fc51")
+	)
+	(label "RX-"
+		(at 228.6 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af17e76e-a4dd-44f9-9e87-51da6f6cb749")
 	)
 	(label "LED1-REGOFF"
 		(at 251.46 129.54 180)

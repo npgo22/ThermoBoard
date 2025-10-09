@@ -99,7 +99,7 @@
 	)
 	(rectangle
 		(start 25.4 167.64)
-		(end 39.37 182.88)
+		(end 39.37 187.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -11255,6 +11255,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 29.21 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f35c813-c317-458d-9cef-4a1f7d8f9021")
+		(property "Reference" "H4"
+			(at 32.766 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 31.75 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 29.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 29.21 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 29.21 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11262,7 +11326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65d27878-0567-4b8b-9cd4-92704caaf6b8")
-		(property "Reference" "H200"
+		(property "Reference" "H1"
 			(at 32.766 170.18 0)
 			(effects
 				(font
@@ -11311,7 +11375,7 @@
 		(instances
 			(project ""
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
-					(reference "H200")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11326,7 +11390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70adf598-a940-4340-b77c-cf76c603501f")
-		(property "Reference" "H201"
+		(property "Reference" "H2"
 			(at 32.766 175.26 0)
 			(effects
 				(font
@@ -11375,7 +11439,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
-					(reference "H201")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11390,7 +11454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce48bb83-15ab-41cc-ae79-726a0440a2fb")
-		(property "Reference" "H202"
+		(property "Reference" "H3"
 			(at 32.766 180.34 0)
 			(effects
 				(font
@@ -11439,7 +11503,7 @@
 		(instances
 			(project "ThermoBoard"
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba"
-					(reference "H202")
+					(reference "H3")
 					(unit 1)
 				)
 			)
