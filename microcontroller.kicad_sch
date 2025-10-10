@@ -8821,7 +8821,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 149.86) (xy 236.22 149.86)
+			(xy 240.03 149.86) (xy 234.95 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9011,7 +9011,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 149.86) (xy 228.6 149.86)
+			(xy 220.98 149.86) (xy 227.33 149.86)
 		)
 		(stroke
 			(width 0)
@@ -20069,7 +20069,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 232.41 149.86 90)
+		(at 231.14 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20078,7 +20078,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb5c157e-e057-486f-a8aa-6aa2fc82e990")
 		(property "Reference" "FB100"
-			(at 232.3592 142.24 90)
+			(at 231.0892 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20086,7 +20086,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 232.3592 144.78 90)
+			(at 231.0892 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20094,7 +20094,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 232.41 151.638 90)
+			(at 231.14 151.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20103,7 +20103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 149.86 0)
+			(at 231.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20112,7 +20112,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 232.41 149.86 0)
+			(at 231.14 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20121,7 +20121,7 @@
 			)
 		)
 		(property "LCSC" "C41330"
-			(at 232.3592 142.24 0)
+			(at 231.0892 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
