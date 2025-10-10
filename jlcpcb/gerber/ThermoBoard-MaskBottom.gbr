@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-10-09T14:55:44-07:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4-1.fc42*%
+%TF.CreationDate,2025-10-10T00:36:46-07:00*%
 %TF.ProjectId,ThermoBoard,54686572-6d6f-4426-9f61-72642e6b6963,1A*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-10-09 14:55:44*
+G04 Created by KiCad (PCBNEW 9.0.4-1.fc42) date 2025-10-10 00:36:46*
 %MOMM*%
 %LPD*%
 G01*
@@ -135,7 +135,7 @@ D21*
 X92500000Y-27000000D03*
 %TD*%
 %TO.C,H4*%
-X4996966Y-92050034D03*
+X4500000Y-92550000D03*
 %TD*%
 %TO.C,H3*%
 X92500000Y-92550000D03*
