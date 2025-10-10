@@ -7089,7 +7089,7 @@
 	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
-		(at 43.18 19.05 0)
+		(at 41.148 19.558 0)
 		(effects
 			(font
 				(size 5.08 5.08)
