@@ -7089,7 +7089,7 @@
 	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
-		(at 40.64 19.05 0)
+		(at 43.18 19.05 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -7476,6 +7476,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "718f1449-9ee3-4cb3-9dc6-f203ce8586d4")
+	)
+	(junction
+		(at 207.01 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "721c6980-f5bb-492a-9db5-e4068bfb3a01")
 	)
 	(junction
 		(at 119.38 52.07)
@@ -9671,6 +9677,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 109.22) (xy 185.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae35e07e-de5e-47dc-9953-2a00e4d186e7")
+	)
+	(wire
+		(pts
 			(xy 134.62 175.26) (xy 143.51 175.26)
 		)
 		(stroke
@@ -9981,16 +9997,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 109.22) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52011d4-c355-45d3-904f-9e8f6adcc4fe")
-	)
-	(wire
-		(pts
 			(xy 241.3 121.92) (xy 241.3 119.38)
 		)
 		(stroke
@@ -10211,16 +10217,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 111.76) (xy 185.42 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5b2cb3-fc7d-44ab-aafd-6a47e7c9cd29")
-	)
-	(wire
-		(pts
 			(xy 189.23 149.86) (xy 191.77 149.86)
 		)
 		(stroke
@@ -10391,7 +10387,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 111.76) (xy 184.15 109.22)
+			(xy 185.42 109.22) (xy 185.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13040,6 +13036,73 @@
 			(project ""
 				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 207.01 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d87f206-6e96-45bb-a022-6b5f28d19af1")
+		(property "Reference" "#FLG0105"
+			(at 208.915 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 207.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "646a1525-d59b-4106-97a2-2d9e50bbd41a")
+		)
+		(instances
+			(project "ThermoBoard"
+				(path "/516571a2-a7c0-4337-8157-ef9156d6d6ba/d9e8a336-15fa-4eb2-849e-3ba06ceb583e"
+					(reference "#FLG0105")
 					(unit 1)
 				)
 			)

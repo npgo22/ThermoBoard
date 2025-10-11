@@ -1486,7 +1486,7 @@
 	)
 	(text "CAN"
 		(exclude_from_sim no)
-		(at 25.4 19.05 0)
+		(at 24.384 17.78 0)
 		(effects
 			(font
 				(size 5.08 5.08)

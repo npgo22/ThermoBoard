@@ -1723,7 +1723,7 @@
 		(uuid "1e160a9d-3778-4409-80c9-d99ab4b7cb98")
 	)
 	(junction
-		(at 97.7804 59.69)
+		(at 97.79 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d280a23-d57c-4b94-9436-89f790f64f55")
@@ -2216,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 97.7804 59.69)
+			(xy 95.25 59.69) (xy 97.79 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.7804 59.69) (xy 119.38 59.69)
+			(xy 97.79 59.69) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7218,7 +7218,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 97.7804 59.69 0)
+		(at 97.79 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7226,7 +7226,7 @@
 		(dnp no)
 		(uuid "438679f8-1c4b-4c8f-a99f-b571767d5097")
 		(property "Reference" "TP107"
-			(at 98.7964 58.674 0)
+			(at 98.806 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7236,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 99.0504 60.9599 0)
+			(at 99.06 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7246,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 102.8604 59.69 0)
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7255,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.8604 59.69 0)
+			(at 102.87 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7264,7 +7264,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 97.7804 59.69 0)
+			(at 97.79 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
